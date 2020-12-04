@@ -1,0 +1,102 @@
+Epoch 000000000: Train Loss 0.000161416188, Test Loss 0.000374902098, Train Diff 0.288654595613, Test Diff 0.301446199417
+Epoch 000005000: Train Loss 0.000057572488, Test Loss 0.000133716734, Train Diff 0.158153891563, Test Diff 0.164627328515
+Epoch 000010000: Train Loss 0.000045529705, Test Loss 0.000105746411, Train Diff 0.141849577427, Test Diff 0.147723257542
+Epoch 000015000: Train Loss 0.000015119604, Test Loss 0.000035116496, Train Diff 0.083608567715, Test Diff 0.087120942771
+Epoch 000020000: Train Loss 0.000012103714, Test Loss 0.000028111850, Train Diff 0.073391899467, Test Diff 0.076038137078
+Epoch 000025000: Train Loss 0.000010552334, Test Loss 0.000024508647, Train Diff 0.068525947630, Test Diff 0.070922523737
+Epoch 000030000: Train Loss 0.000008295201, Test Loss 0.000019266274, Train Diff 0.060140140355, Test Diff 0.062231194228
+Epoch 000035000: Train Loss 0.000004960020, Test Loss 0.000011520046, Train Diff 0.046031609178, Test Diff 0.047654002905
+Epoch 000040000: Train Loss 0.000001935971, Test Loss 0.000004496448, Train Diff 0.027150243521, Test Diff 0.028176404536
+Epoch 000045000: Train Loss 0.000000677829, Test Loss 0.000001574313, Train Diff 0.011924922466, Test Diff 0.012581307441
+Training lati mean and std:
+tensor(0.0010, device='cuda:0') tensor(0.0012, device='cuda:0')
+Testing lati mean and std:
+tensor(0.0011, device='cuda:0') tensor(0.0017, device='cuda:0')
+Epoch 000000000: Train Loss 0.000263934140, Test Loss 0.000613008277, Train Diff 0.185844153166, Test Diff 0.188093006611
+Epoch 000005000: Train Loss 0.000056779932, Test Loss 0.000131875961, Train Diff 0.078519888222, Test Diff 0.079919107258
+Epoch 000010000: Train Loss 0.000036832658, Test Loss 0.000085546810, Train Diff 0.064584650099, Test Diff 0.065694622695
+Epoch 000015000: Train Loss 0.000013387492, Test Loss 0.000031093528, Train Diff 0.038292452693, Test Diff 0.039149407297
+Epoch 000020000: Train Loss 0.000012365229, Test Loss 0.000028719240, Train Diff 0.036811131984, Test Diff 0.037630390376
+Epoch 000025000: Train Loss 0.000011095446, Test Loss 0.000025770067, Train Diff 0.035005919635, Test Diff 0.035786017776
+Epoch 000030000: Train Loss 0.000009301148, Test Loss 0.000021602666, Train Diff 0.031892947853, Test Diff 0.032605126500
+Epoch 000035000: Train Loss 0.000006637895, Test Loss 0.000015417047, Train Diff 0.026509352028, Test Diff 0.027103725821
+Epoch 000040000: Train Loss 0.000003274718, Test Loss 0.000007605795, Train Diff 0.018203370273, Test Diff 0.018616240472
+Epoch 000045000: Train Loss 0.000001003217, Test Loss 0.000002330052, Train Diff 0.009250508621, Test Diff 0.009470899589
+Training lati mean and std:
+tensor(0.0011, device='cuda:0') tensor(0.0013, device='cuda:0')
+Training loti mean and std:
+tensor(0.0035, device='cuda:0') tensor(0.0018, device='cuda:0')
+Testing lati mean and std:
+tensor(0.0010, device='cuda:0') tensor(0.0014, device='cuda:0')
+Testing loti mean and std:
+tensor(0.0036, device='cuda:0') tensor(0.0019, device='cuda:0')Start training: 
+2020-12-03 16:24:20 +0800
+Epoch 000000000: Train Loss 0.000267622527, Test Loss 0.000621574873, Train Diff 0.183214008808, Test Diff 0.182358488441
+Epoch 000005000: Train Loss 0.000055121040, Test Loss 0.000128023050, Train Diff 0.078420758247, Test Diff 0.080605447292
+Epoch 000010000: Train Loss 0.000037371727, Test Loss 0.000086798849, Train Diff 0.065517991781, Test Diff 0.067187801003
+Epoch 000015000: Train Loss 0.000013423363, Test Loss 0.000031176842, Train Diff 0.038208875805, Test Diff 0.038359917700
+Epoch 000020000: Train Loss 0.000011923422, Test Loss 0.000027693110, Train Diff 0.035987343639, Test Diff 0.036071352661
+Epoch 000025000: Train Loss 0.000010331340, Test Loss 0.000023995370, Train Diff 0.033434435725, Test Diff 0.033562377095
+Epoch 000030000: Train Loss 0.000007711156, Test Loss 0.000017909781, Train Diff 0.028825528920, Test Diff 0.028987126425
+Epoch 000035000: Train Loss 0.000004235918, Test Loss 0.000009838261, Train Diff 0.021128317341, Test Diff 0.021333130077
+Epoch 000040000: Train Loss 0.000001627878, Test Loss 0.000003780878, Train Diff 0.011667548679, Test Diff 0.011848684400
+Epoch 000045000: Train Loss 0.000000585884, Test Loss 0.000001360763, Train Diff 0.005255274475, Test Diff 0.005369712133
+Epoch 000050000: Train Loss 0.000000433042, Test Loss 0.000001005774, Train Diff 0.003030051244, Test Diff 0.003037060145
+Epoch 000055000: Train Loss 0.000000358322, Test Loss 0.000000832232, Train Diff 0.002378384117, Test Diff 0.002326384187
+Epoch 000060000: Train Loss 0.000000326744, Test Loss 0.000000758890, Train Diff 0.002074371791, Test Diff 0.002001609420
+Epoch 000065000: Train Loss 0.000000300227, Test Loss 0.000000697302, Train Diff 0.001864575315, Test Diff 0.001792265219
+Epoch 000070000: Train Loss 0.000000279775, Test Loss 0.000000649799, Train Diff 0.001695839223, Test Diff 0.001625964069
+Epoch 000075000: Train Loss 0.000000282649, Test Loss 0.000000656475, Train Diff 0.001560525154, Test Diff 0.001498869504
+Epoch 000080000: Train Loss 0.000000271965, Test Loss 0.000000631661, Train Diff 0.001447338494, Test Diff 0.001391532482
+Epoch 000085000: Train Loss 0.000000265837, Test Loss 0.000000617428, Train Diff 0.001354830107, Test Diff 0.001304810285
+Epoch 000090000: Train Loss 0.000000228720, Test Loss 0.000000531222, Train Diff 0.001277545700, Test Diff 0.001230172114
+Epoch 000095000: Train Loss 0.000000210457, Test Loss 0.000000488804, Train Diff 0.001213977113, Test Diff 0.001166531933
+Training lati mean and std:
+tensor(0.0008, device='cuda:0') tensor(0.0016, device='cuda:0')
+Training loti mean and std:
+tensor(0.0006, device='cuda:0') tensor(0.0005, device='cuda:0')
+Testing lati mean and std:
+tensor(0.0008, device='cuda:0') tensor(0.0008, device='cuda:0')
+Testing loti mean and std:
+tensor(0.0006, device='cuda:0') tensor(0.0005, device='cuda:0')
+Start training: 
+2020-12-03 16:36:25 +0800
+Start training: 
+2020-12-03 16:51:59 +0800
+Epoch 000000000: Train Loss 0.000174767410, Test Loss 0.000387212815, Train Diff 0.133714437485, Test Diff 0.132782876492
+Epoch 000005000: Train Loss 0.000073223324, Test Loss 0.000151675602, Train Diff 0.079220928252, Test Diff 0.074606835842
+Epoch 000010000: Train Loss 0.000036509686, Test Loss 0.000080165788, Train Diff 0.049426615238, Test Diff 0.047350551933
+Epoch 000015000: Train Loss 0.000027465110, Test Loss 0.000063134357, Train Diff 0.035993531346, Test Diff 0.035559795797
+Epoch 000020000: Train Loss 0.000025130530, Test Loss 0.000057911155, Train Diff 0.032167419791, Test Diff 0.031817160547
+Epoch 000025000: Train Loss 0.000021285605, Test Loss 0.000048999031, Train Diff 0.024514475837, Test Diff 0.024237671867
+Epoch 000030000: Train Loss 0.000017232240, Test Loss 0.000039726398, Train Diff 0.012397464365, Test Diff 0.012214341201
+Epoch 000035000: Train Loss 0.000015977932, Test Loss 0.000036758487, Train Diff 0.003962458111, Test Diff 0.003836473217
+Epoch 000040000: Train Loss 0.000015757360, Test Loss 0.000036394973, Train Diff 0.002057526493, Test Diff 0.001876528026
+Epoch 000045000: Train Loss 0.000015661004, Test Loss 0.000036255868, Train Diff 0.001736688078, Test Diff 0.001556469593
+Epoch 000050000: Train Loss 0.000015575044, Test Loss 0.000036132271, Train Diff 0.001617468428, Test Diff 0.001445196103
+Epoch 000055000: Train Loss 0.000015481084, Test Loss 0.000036006568, Train Diff 0.001544213388, Test Diff 0.001376240747
+Epoch 000060000: Train Loss 0.000015460046, Test Loss 0.000035873392, Train Diff 0.001488993526, Test Diff 0.001320961630
+Epoch 000065000: Train Loss 0.000015335556, Test Loss 0.000035731024, Train Diff 0.001440525870, Test Diff 0.001269096858
+Epoch 000070000: Train Loss 0.000015244302, Test Loss 0.000035576231, Train Diff 0.001404660637, Test Diff 0.001233836520
+Epoch 000075000: Train Loss 0.000015190039, Test Loss 0.000035408499, Train Diff 0.001381934038, Test Diff 0.001219492871
+Epoch 000080000: Train Loss 0.000015066847, Test Loss 0.000035224126, Train Diff 0.001351815881, Test Diff 0.001180976979
+Epoch 000085000: Train Loss 0.000015008995, Test Loss 0.000035023280, Train Diff 0.001332450891, Test Diff 0.001163415960
+Epoch 000090000: Train Loss 0.000014912181, Test Loss 0.000034804507, Train Diff 0.001316074398, Test Diff 0.001149930991
+Epoch 000095000: Train Loss 0.000014765760, Test Loss 0.000034566416, Train Diff 0.001304629375, Test Diff 0.001144477515
+Training lati mean and std:
+tensor(0.0011, device='cuda:0') tensor(0.0012, device='cuda:0')
+Training loti mean and std:
+tensor(0.0005, device='cuda:0') tensor(0.0004, device='cuda:0')
+Training lati_knot mean and std:
+tensor(0.0864, device='cuda:0') tensor(0.0958, device='cuda:0')
+Training loti_knot mean and std:
+tensor(0.0864, device='cuda:0') tensor(0.0958, device='cuda:0')
+Testing lati mean and std:
+tensor(0.0009, device='cuda:0') tensor(0.0008, device='cuda:0')
+Testing loti mean and std:
+tensor(0.0005, device='cuda:0') tensor(0.0004, device='cuda:0')
+Testing lati_knot mean and std:
+tensor(0.0864, device='cuda:0') tensor(0.0958, device='cuda:0')
+Testing loti_knot mean and std:
+tensor(0.0864, device='cuda:0') tensor(0.0958, device='cuda:0')
+Epoch 000099999: Train Loss 0.000014613665, Test Loss 0.000034308781, Train Diff 0.001288129250, Test Diff 0.001122660935

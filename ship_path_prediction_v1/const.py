@@ -1,0 +1,10 @@
+SAMPLE_POINT_SPACE = '30min'   # min
+POINTS_PER_PATH = 101
+POINTS_CAN_LOW_IN_PATH = 0
+SAMPLE_PATH_POINT_SPACE = 10  # points
+MAX_LATI_LOTI_VAR = 0.25
+MAX_KNOT = 20   # knot
+NUM_IN_FEATURE = 4  # model input
+NUM_OUT_FEATURE = 4     # model output
+NUM_HIDDEN = 128    # model hidden
+AHEAD_TIME = 6  # model timestamps

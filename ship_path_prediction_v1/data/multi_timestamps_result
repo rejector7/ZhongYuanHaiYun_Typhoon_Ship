@@ -1,0 +1,31 @@
+3.0 hours prediction lati/loti mean and std:
+tensor(0.0094, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<StdBackward0>)
+tensor(0.0037, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0027, device='cuda:0', grad_fn=<StdBackward0>)
+6.0 hours prediction lati/loti mean and std:
+tensor(0.0292, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0250, device='cuda:0', grad_fn=<StdBackward0>)
+tensor(0.0106, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<StdBackward0>)
+12.0 hours prediction lati/loti mean and std:
+tensor(0.0996, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0797, device='cuda:0', grad_fn=<StdBackward0>)
+tensor(0.0348, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0229, device='cuda:0', grad_fn=<StdBackward0>)
+24.0 hours prediction lati/loti mean and std:
+tensor(0.3620, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.2683, device='cuda:0', grad_fn=<StdBackward0>)
+tensor(0.1235, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0751, device='cuda:0', grad_fn=<StdBackward0>)
+48.0 hours prediction lati/loti mean and std:
+tensor(1.2947, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.9275, device='cuda:0', grad_fn=<StdBackward0>)
+tensor(0.4347, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.2540, device='cuda:0', grad_fn=<StdBackward0>)
+
+3.0 hours prediction lati/loti diff mean and std and %mean:
+tensor(0.0094, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<StdBackward0>) tensor(0.0126, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0037, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0027, device='cuda:0', grad_fn=<StdBackward0>) tensor(0.0048, device='cuda:0', grad_fn=<MeanBackward0>)
+6.0 hours prediction lati/loti diff mean and std and %mean:
+tensor(0.0292, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0250, device='cuda:0', grad_fn=<StdBackward0>) tensor(0.0196, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0106, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<StdBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MeanBackward0>)
+12.0 hours prediction lati/loti diff mean and std and %mean:
+tensor(0.0996, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0797, device='cuda:0', grad_fn=<StdBackward0>) tensor(0.0330, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.0348, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0229, device='cuda:0', grad_fn=<StdBackward0>) tensor(0.0112, device='cuda:0', grad_fn=<MeanBackward0>)
+24.0 hours prediction lati/loti diff mean and std and %mean:
+tensor(0.3620, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.2683, device='cuda:0', grad_fn=<StdBackward0>) tensor(0.0603, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.1235, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0751, device='cuda:0', grad_fn=<StdBackward0>) tensor(0.0198, device='cuda:0', grad_fn=<MeanBackward0>)
+48.0 hours prediction lati/loti diff mean and std and %mean:
+tensor(1.2947, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.9275, device='cuda:0', grad_fn=<StdBackward0>) tensor(0.1127, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(0.4347, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.2540, device='cuda:0', grad_fn=<StdBackward0>) tensor(0.0356, device='cuda:0', grad_fn=<MeanBackward0>)
