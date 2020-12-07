@@ -1,0 +1,8 @@
+total records:
+49075316
+
+processed:
+27127955
+
+columns:
+['latitude', 'longitude', 'shipment_dir', 'knot', 'posi_dt', 'mmsi_code']

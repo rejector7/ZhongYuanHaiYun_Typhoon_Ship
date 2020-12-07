@@ -1,0 +1,2 @@
+MAX_KNOT = 30
+LOW_KNOT = 0.1
