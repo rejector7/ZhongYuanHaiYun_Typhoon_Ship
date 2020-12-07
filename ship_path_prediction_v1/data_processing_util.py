@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from ship_path_prediction_v1.const import SAMPLE_POINT_SPACE, POINTS_PER_PATH, POINTS_CAN_LOW_IN_PATH, \
-    SAMPLE_PATH_POINT_SPACE, MAX_LATI_LOTI_VAR, MAX_KNOT
+    SAMPLE_PATH_POINT_SPACE, MAX_LATI_LOTI_VAR, MAX_KNOT, LOW_KNOT
 
 
 '''
@@ -12,7 +12,8 @@ get equally-spaced data
 
 
 def process_raw_ais_data(csv_file_path):
-    ais_dset = pd.read_csv(csv_file_path)
+    ais_dset = pd.read_csv(csv_file_path, encoding=' ISO-8859-1')
+    print(ais_dset.head())
     # get needed columns and sort by datetime, set range index
     ais_dset = ais_dset[['latitude', 'longitude', 'shipment_dir', 'knot', 'posi_dt', 'mmsi_code']]
     ais_dset = ais_dset.sort_values(by=["posi_dt"])
@@ -38,7 +39,7 @@ def process_raw_ais_data(csv_file_path):
     # add continuous index for separating paths and drop nan and low knot data
     index_num_column = range(len(ais_dset.index))
     ais_dset['index_num'] = index_num_column
-    ais_dset = ais_dset[ais_dset['knot'] > 0.01]
+    ais_dset = ais_dset[ais_dset['knot'] > LOW_KNOT]
     ais_dset.dropna(axis=0)
 
     # get lati and loti knot
@@ -79,10 +80,10 @@ def process_raw_ais_data(csv_file_path):
     path_record_point_index = index_num[0]
     cur_path = []
 
-    max_lati_var = 0
-    min_lati_var = 0
-    max_loti_var = 0
-    min_loti_var = 0
+    # max_lati_var = 0
+    # min_lati_var = 0
+    # max_loti_var = 0
+    # min_loti_var = 0
     '''
     after cut the small-knot off, the index/time continuity suffers
     to solve: get the continuous points strings and seperate different stringa
