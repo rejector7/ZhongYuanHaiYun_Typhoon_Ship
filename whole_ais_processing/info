@@ -6,3 +6,5 @@ processed:
 
 columns:
 ['latitude', 'longitude', 'shipment_dir', 'knot', 'posi_dt', 'mmsi_code']
+
+MMSI	BaseDateTime	LAT	LON	SOG	COG	Heading	VesselName	IMO	CallSign	VesselType	Status	Length	Width	Draft	Cargo	TranscieverClass
